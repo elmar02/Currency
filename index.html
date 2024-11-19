@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="./style.css">
+    <script async src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="logo">
+        <ul class="menu">
+            <li>БАНК</li>
+            <li>БИЗНЕС</li>
+            <li>ИНВЕСТИЦИИ</li>
+            <li>СТРАХОВАНИЕ</li>
+            <li>МОБАЙЛ</li>
+            <li>ПУТЕШЕСТВИЯ</li>
+            <li>РАЗВЛЕЧЕНИЯ</li>
+        </ul>
+        <span class="login">
+            ВОЙТИ
+        </span>
+    </header>
+    <main>
+        <section id="convertor">
+            <h1 class="title">Конвертер валют онлайн</h1>
+            <p class="error"></p>
+            <div class="box">
+                <div class="convert-area sell">
+                    <h4 class="info">У меня есть</h4>
+                    <ul class="tabs">
+                        <li class="active" code="rub">RUB</li>
+                        <li code="usd">USD</li>
+                        <li code="eur">EUR</li>
+                        <li code="gbp">GBP</li>
+                    </ul>
+                    <div class="result">
+                        <input type="text" value="0" placeholder="Enter value">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="convert-area buy">
+                    <h4 class="info">У меня есть</h4>
+                    <ul class="tabs">
+                        <li code="rub">RUB</li>
+                        <li class="active" code="usd">USD</li>
+                        <li code="eur">EUR</li>
+                        <li code="gbp">GBP</li>
+                    </ul>
+                    <div class="result">
+                        <input type="text" value="0" placeholder="Enter value">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
